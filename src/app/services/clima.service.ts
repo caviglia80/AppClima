@@ -13,7 +13,7 @@ export class ClimaService {
   constructor(private http: HttpClient) { }
 
   getClima(ciudad: string): Observable<any> {
-    const URL = this.url + this.key + '&q='+ ciudad;
+    const URL = this.url + this.key + '&q=' + ciudad;
     return this.http.get(URL)
   }
 }

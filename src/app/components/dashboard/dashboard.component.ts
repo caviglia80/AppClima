@@ -7,7 +7,7 @@ import { ClimaService } from 'src/app/services/clima.service';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
-  urlImagen = 'https://image.flaticon.com/icons/png/512/1116/1116453.png';
+  urlImagen = '../../assets/logo.png';
   ciudad = '';
   tempetura = 0;
   humedad = 0;
